@@ -1,0 +1,54 @@
+/* Task Form Styles */
+.task-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input, .select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.input:focus, .select:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none;
+}
+
+.button-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-submit:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Validation/Error Styles */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

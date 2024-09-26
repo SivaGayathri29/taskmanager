@@ -1,0 +1,63 @@
+/* Task List Styles */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-list-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.task-priority {
+    font-size: 14px;
+    color: #6c757d; /* Grey color for priority text */
+}
+
+.task-buttons {
+    display: flex;
+}
+
+.task-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.task-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa; /* Grey out completed tasks */
+}
+.task-date {
+    display: block;
+    font-size: 12px;
+    color: #6c757d; /* Grey color for date text */
+}

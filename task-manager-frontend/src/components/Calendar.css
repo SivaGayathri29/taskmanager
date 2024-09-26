@@ -1,0 +1,21 @@
+.full-calendar {
+    margin-top: 20px;
+}
+
+.fc {
+    background: white;
+    border-radius: 5px;
+}
+
+.fc-daygrid-event {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+.fc-daygrid-event:hover {
+    background-color: #218838;
+}
